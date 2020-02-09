@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainPage {
+  text-align: center;
+  margin-top: 100px;
+
+  .title {
+    margin-bottom: 20px;
+  }
+
+  .form {
+    display: inline-block;
+
+    .submitButton {
+      margin-left: 10px;
+      height: 21px;
+    }
+  }
+
+  .forecastContent {
+    & > h3 {
+      margin-top: 20px;
+    }
+  }
+}
